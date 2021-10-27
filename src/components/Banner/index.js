@@ -12,7 +12,7 @@ const Banner = ({children}) => {
                             {children}
                         </button>
                     </a>
-                    <img id="gif" src={gif}/>
+                    <img id="gif" src={gif} alt="gif"/>
                 
             </div>
             
