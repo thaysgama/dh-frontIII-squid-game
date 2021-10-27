@@ -1,0 +1,70 @@
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#container-button{
+    display: flex;
+    margin-left: 10vw;
+    max-width: 250px;
+}
+
+#gif{
+    margin-top: 35vh;
+    width: 250px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+button{
+    margin-top: 60vh;
+    height: 75px;
+    width: 250px;
+    color: white;
+    background-color: #fd287e;
+    border-style: none;
+    border-radius:8px ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+a:hover ~ #gif{
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+
+#gif{
+    position: absolute;
+}
+
+button:active{
+    border: solid 3px white;
+    background-color: #cc0253;
+}
+
+
+
+/* a{
+    cursor: pointer;
+}
+
+h1 {
+    color: #4fa04f;
+}
+h1 + a {
+    color: #a04f4f;
+}
+h1:hover ~ a {
+    color: #4f4fd0;
+}
+a:hover ~ h1 {
+    background-color: #444;
+} */
